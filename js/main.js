@@ -5,7 +5,7 @@ $(function () {
 
         $('#fullPage').fullpage({
             easingcss3: 'cubic-bezier(0.9, 0.01, 0.1, 1)',
-            scrollingSpeed: 1700,
+            scrollingSpeed: 1200,
         });
 
         $('#pageLoading').fadeOut(function () {
