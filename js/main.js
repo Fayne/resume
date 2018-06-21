@@ -3,7 +3,7 @@ $(function () {
     // page loading effect
     setTimeout(function () {
 
-        $('#fullPage').fullpage();
+        $('#fullPage').fullpage({easingcss3: 'ease-in-out',});
 
         $('#pageLoading').fadeOut(function () {
             $('#fullPage').fadeIn();
