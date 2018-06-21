@@ -4,7 +4,7 @@ $(function () {
     setTimeout(function () {
 
         $('#fullPage').fullpage({
-            easingcss3: 'ease-in-out',
+            easingcss3: 'cubic-bezier(0.9, 0.01, 0.1, 1)',
             scrollingSpeed: 1700,
         });
 
